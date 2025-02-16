@@ -1,5 +1,5 @@
 name: malvin-xd
-services:
+services:MALVIN-XD~Z0wkQaRD#K0gOpR2a6MERp1GGpqmKAU1th4u-n59Xy3_QEcRJbSo
   - name: malvin-xd-service
     type: web
     ports:
