@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: malvin-xd-bot
+    env: node
+    repo: https://github.com/acrey1-haule/MALVIN-XD
+    branch: main
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: SESSION_ID
+        value: 'MALVIN-XD~JlQRHQ6A#WhYswDiED_bDpMgfr_LvZ2CVaRH4wIkkOIdluE7K7iI'
+      - key: PREFIX
+        value: '.'
+      - key: BOT_NAME
+        value: 'ACREY-BOT'
+      - key: OWNER_NUMBER
+        value: '263714757857'
+      - key: OWNER_NAME
+        value: '✦ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ🪀✦'
+      # Add other environment variables as needed
