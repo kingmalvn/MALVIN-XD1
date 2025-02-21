@@ -107,7 +107,7 @@ FAKE_TYPING: process.env.FAKE_TYPING || "false",
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-DEV: process.env.DEV || "263714757857",
+DEV: process.env.DEV || "50939004405",
 //replace with your whatsapp number       
  
 ANTI_VV: process.env.ANTI_VV || "true",
