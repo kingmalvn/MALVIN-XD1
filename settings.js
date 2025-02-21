@@ -5,10 +5,10 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~pwwFQQLT#8mTCoDeP2qGCzpo6DyiPEWHswpkHN9OLUqj8L1o-AEY",
 // add your Session Id 
 
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "!",
 // add your prifix for bot
 
 BOT_NAME: process.env.BOT_NAME || "✦ᴍᴀʟᴠɪɴ xᴅ v2",
@@ -17,7 +17,7 @@ BOT_NAME: process.env.BOT_NAME || "✦ᴍᴀʟᴠɪɴ xᴅ v2",
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react   
 
-STICKER_NAME: process.env.STICKER_NAME || "MALVIN-XD",
+STICKER_NAME: process.env.STICKER_NAME || "♨️𝚳𝚪 𝚯𝚰𝚳 𝐋𝐃𝐘 🆒😎ᴱˡ ˢᵘʳᵛⁱᵛᵒʳ",
 // type sticker pack name  
 
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍",
@@ -26,10 +26,10 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "2250500161896",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "✦ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ🪀✦",
+OWNER_NAME: process.env.OWNER_NAME || "♨️𝚳𝚪 𝚯𝚰𝚳 𝐋𝐃𝐘 🆒😎ᴱˡ ˢᵘʳᵛⁱᵛᵒʳ",
 // add bot owner name
 
 DESCRIPTION: process.env.DESCRIPTION || "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✦ɴᴇxᴜs ᴛᴇᴄʜ✦ ɪɴᴄ*",
@@ -56,16 +56,16 @@ ANTI_BAD: process.env.ANTI_BAD || "false",
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto react on status (still testing)
 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 Status Seen by ᴍᴀʟᴠɪɴ xᴅ v2🚀🔥*",
 // set the auto reply massage on status reply    
 
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
 ANTI_LINK: process.env.ANTI_LINK || "true",
@@ -86,10 +86,10 @@ HEART_REACT: process.env.HEART_REACT || "false",
 OWNER_REACT: process.env.OWNER_REACT || "true",
 // make it true or fasle for only react on owner msg only 
 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
@@ -107,13 +107,13 @@ FAKE_TYPING: process.env.FAKE_TYPING || "false",
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-DEV: process.env.DEV || "263714757857",
+DEV: process.env.DEV || "2250500161896",
 //replace with your whatsapp number       
  
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 
-ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
+ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", 
 // change it to 'same' if you want to resend deleted message in same chat 
 
 CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
