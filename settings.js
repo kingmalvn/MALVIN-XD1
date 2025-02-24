@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "",
-// add your Session Id 
+// add your SessioMALVIN-XD~tk5hjbwA#vdMamKz2AUyhZtfs6kXPX08Fcuqam8Z4rwpib9KyrpUn Id 
 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
@@ -47,7 +47,7 @@ LIVE_MSG: process.env.LIVE_MSG || "> ✦ᴍᴀʟᴠɪɴ xᴅ✦ ɪs sᴘᴀʀᴋ
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 
-AUTO_REACT: process.env.AUTO_REACT || "false",
+AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
 
 ANTI_BAD: process.env.ANTI_BAD || "false",
