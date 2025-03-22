@@ -6,16 +6,16 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "session id here",
-// add your Session Id ,session id starts with MALVIN-XD~
+"MALVIN-XD~8phxWRqY#SfRa7oG3rGOwuqP4Mdg_SNtr4OPhDKxn_gDYVNuGZZU",
 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
 
 BOT_NAME: process.env.BOT_NAME || "✦ᴍᴀʟᴠɪɴ xᴅ v3✦",
-// add bot name here for menu
-
+"false",
+"false",
 MODE: process.env.MODE || "public",
-// make bot public-private-inbox-group 
+// "true",make bot public-private-inbox-group 
 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react   
